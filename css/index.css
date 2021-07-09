@@ -20,10 +20,6 @@
 img{
     width:400px;
     height:500px;
+    margin-left:auto;
+    margin-right:auto;
 }
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
