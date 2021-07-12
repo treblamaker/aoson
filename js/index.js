@@ -1,3 +1,3 @@
 function myFunction() {
-    document.getElementById("myButton").innerHTML = "I was clicked."
+    document.getElementById("ent").innerHTML = "I was clicked."
 }
