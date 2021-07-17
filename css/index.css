@@ -34,6 +34,7 @@ img{
     display: flex;
     list-style-type: none;
     justify-content: flex-end;
+    height: 50px;
 }
 #menu-items li{
     margin-right: 16px;
