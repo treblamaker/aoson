@@ -30,3 +30,7 @@ img{
 #title{
     text-align:center;
 }
+#menu-items{
+    display: flex;
+    list-style-type: none;
+}
