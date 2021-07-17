@@ -35,3 +35,6 @@ img{
     list-style-type: none;
     justify-content: flex-end;
 }
+#menu-items li{
+    margin-right: 16px;
+}
