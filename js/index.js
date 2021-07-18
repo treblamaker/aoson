@@ -2,7 +2,7 @@ function myFunction() {
     document.getElementById("ent").innerHTML = "I was clicked."
 }
 function sendEmail(name,email,message) {
-    email.send({
+    Email.send({
         Host:"smtp.gmail.com",
         Username:"aosongco@gmail.com",
         Password:"vphefbjicotergkc",
