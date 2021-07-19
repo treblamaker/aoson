@@ -22,9 +22,11 @@
 <p id="email">Email: aosongco@gmail.com</p>
 <a id="linkedin" href="https://www.linkedin.com/in/albert-osongco-24aa841b2">My LinkedIn</a>
 <h1>Want to send me an email directly?</h1>
+ <form class="contact-form">
+<label for="">Name</label><br/>
   <label for="">Name</label><br />
-  <input class="name" type="text" placeholder="name"><br />
-  <input class="email" type="email" placeholder="email" ><br />
+  <input class="name" type="text" placeholder="name" required/><br />
+  <input class="email" type="email" placeholder="email" required/><br />
   <label for="">Message</label><br />
   <textarea 
   class="message"
@@ -37,6 +39,9 @@
 </textarea>
 <br />
 <button id="Submit" onclick="myFunction1()">Submit!</button>
+ </form>
+ <script src="https://smtpjs.com/v3/smtp.js"></script>
+ <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase.js"></script>
   <script src="js/index.js"></script>
 </body>
 </html>
