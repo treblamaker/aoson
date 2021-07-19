@@ -1,6 +1,53 @@
 function myFunction() {
     document.getElementById("ent").innerHTML = "I was clicked."
 }
+function myFunction() {
+    document.getElementById("submit").innerHTML= "Sent successfully"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 firebase.initializeApp(firebaseConfig);
 
 let contactInfo= firebase.database().ref("infos");
@@ -57,9 +104,6 @@ function gotData(data) {
     }
     }
 retrieveInfos();
-
-
-
 
 
 function sendEmail(name ,email ,message) {
