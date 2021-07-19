@@ -3,3 +3,4 @@ function myFunction() {
 }
 function myFunction() {
     document.getElementById("Submit").innerHTML= "Sent successfully"
+}
